@@ -122,9 +122,9 @@ function checkWinner() {
 function setWinner(r, c) {
     let winner = document.getElementById("winner");
     if (board[r][c] == playerRed) {
-        winner.innerText = "Red Wins";             
+        winner.innerText = "green Wins";             
     } else {
-        winner.innerText = "Yellow Wins";
+        winner.innerText = "blue Wins";
     }
     gameOver = true;
 }
